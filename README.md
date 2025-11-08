@@ -36,14 +36,17 @@ This prototype demonstrates **front-end mobile design principles** and **UI cons
 
 Follow these steps to reproduce and test the implementation:
 
-### 1️⃣ Clone the Repository
+### 
+1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/ClassAttendance.git
 cd ClassAttendance
+
 2️⃣ Install Dependencies
 bash
 Copy code
 npm install
+
 3️⃣ Download Expo Go
 Install Expo Go on your iPhone from the App Store.
 
@@ -51,14 +54,17 @@ Install Expo Go on your iPhone from the App Store.
 bash
 Copy code
 npx expo start
+
 5️⃣ Run the App
 Scan the QR code shown in your terminal with the Expo Go app.
 
+###
 The Home Page will appear first.
-
 After clicking Sign In, you’ll navigate to the Styles Page.
 
+###
 This project was developed with assistance from ChatGPT (GPT-5) for:
 Structuring React Native components
 Designing the UI layout and style consistency
 Drafting and refining project documentation
+

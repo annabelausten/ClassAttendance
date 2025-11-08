@@ -14,7 +14,7 @@ A sign-in interface with:
 - **Sign In** button
 - **Create a New Account** link
 
-### 🎨 Styles Page
+### Styles Page
 A sample visual style guide displaying:
 - App color palette (primary, secondary, and accent colors)
 - Sample icon set
@@ -84,3 +84,4 @@ This project was developed with assistance from ChatGPT (GPT-5) for:
 - React Native component architecture
 - UI layout and style consistency
 - Project documentation
+

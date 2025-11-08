@@ -1,70 +1,86 @@
-# 📱 ClassAttendance App
+# ClassAttendance App
 
-## 🖥️ Overview
-
-The project includes two main screens:
-
-- **🏠 Home Page:**  
-  A sign-in interface featuring:
-  - Email and password input fields  
-  - A **Sign In** button  
-  - A **Create a New Account** link  
-
-- **🎨 Styles Page:**  
-  A visual style guide that displays:
-  - App color palette (primary, secondary, and accent colors)  
-  - Sample icons  
-  - Font weights and typography used across the app  
-
-This prototype demonstrates **front-end mobile design principles** and **UI consistency** using React Native and Expo’s flexible development environment.
+A mobile application prototype built with **React Native** and **Expo** for classroom attendance management, showcasing clean UI design and consistent styling principles.
 
 ---
 
-## 📂 File Descriptions
+## Overview
+
+ClassAttendance features two primary screens demonstrating modern mobile design patterns:
+
+### Home Page
+A sign-in interface with:
+- Email and password input fields
+- **Sign In** button
+- **Create a New Account** link
+
+### 🎨 Styles Page
+A sample visual style guide displaying:
+- App color palette (primary, secondary, and accent colors)
+- Sample icon set
+- Typography hierarchy and font weights
+
+This prototype demonstrates **front-end mobile design principles** and **UI consistency** using React Native and Expo's development environment.
+
+---
+
+## Project Structure
 
 | File | Description |
-|------|--------------|
-| **App.js** | Main entry point of the application. Sets up navigation between the Home Page and Styles Page using React Navigation. |
-| **screens/HomePage.js** | Displays the login interface with inputs for email and password, a styled sign-in button, and a link to create a new account. |
-| **screens/StylesPage.js** | Acts as a visual style guide, showing the color palette, icons, and typography used across the app. |
-| **package.json** | Lists the dependencies required to run the app (React Native, Expo, React Navigation, etc.). |
-| **app.json** | Defines app-level configurations for Expo, such as app name and orientation. |
+|------|-------------|
+| `App.js` | Main entry point. Configures navigation between Home and Styles pages using React Navigation |
+| `screens/HomePage.js` | Login interface with email/password inputs, sign-in button, and account creation link |
+| `screens/StylesPage.js` | Visual style guide showcasing the app's color palette, icons, and typography |
+| `package.json` | Project dependencies (React Native, Expo, React Navigation, etc.) |
+| `app.json` | Expo configuration including app name, orientation, and platform settings |
 
 ---
 
-## 🚀 How to Run the App
+## Getting Started
 
-Follow these steps to reproduce and test the implementation:
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- Expo Go app (available on iOS App Store or Android Play Store)
 
-### 
-1️⃣ Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/ClassAttendance.git
-cd ClassAttendance
+### Installation
 
-2️⃣ Install Dependencies
-bash
-Copy code
-npm install
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/ClassAttendance.git
+   cd ClassAttendance
+   ```
 
-3️⃣ Download Expo Go
-Install Expo Go on your iPhone from the App Store.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-4️⃣ Start the Expo Server
-bash
-Copy code
-npx expo start
+3. **Start the development server**
+   ```bash
+   npx expo start
+   ```
 
-5️⃣ Run the App
-Scan the QR code shown in your terminal with the Expo Go app.
+4. **Run on your device**
+   - Open Expo Go on your mobile device
+   - Scan the QR code displayed in your terminal
+   - The app will load with the Home Page
+   - Tap **Sign In** to navigate to the Styles Page
 
-###
-The Home Page will appear first.
-After clicking Sign In, you’ll navigate to the Styles Page.
+---
 
-###
+## Tech Stack
+
+- **React Native** — Cross-platform mobile UI framework
+- **Expo** — Development toolchain and runtime
+- **React Navigation** — Screen navigation and routing
+- **JavaScript (ES6+)** — Core language
+
+---
+
+## Citations
+
 This project was developed with assistance from ChatGPT (GPT-5) for:
-Structuring React Native components
-Designing the UI layout and style consistency
-Drafting and refining project documentation
-
+- React Native component architecture
+- UI layout and style consistency
+- Project documentation

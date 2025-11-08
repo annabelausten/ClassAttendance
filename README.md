@@ -1,29 +1,64 @@
-This repository contains the **ClassAttendance** prototype — a mobile app built using **React Native** and **Expo**.  
-The project includes two primary screens:
+# 📱 ClassAttendance App
 
-- **Home Page**: A sign-in interface with email and password inputs, a "Sign In" button, and a link to create a new account.  
-- **Styles Page**: A visual style guide showing colors, icons, and typography used throughout the app.
+## 🖥️ Overview
 
-The purpose of this project is to demonstrate front-end mobile design principles and consistent UI styling through React Native and Expo’s development environment.
+The project includes two main screens:
 
+- **🏠 Home Page:**  
+  A sign-in interface featuring:
+  - Email and password input fields  
+  - A **Sign In** button  
+  - A **Create a New Account** link  
 
-## How to Run the App
+- **🎨 Styles Page:**  
+  A visual style guide that displays:
+  - App color palette (primary, secondary, and accent colors)  
+  - Sample icons  
+  - Font weights and typography used across the app  
 
-Follow these exact steps to reproduce and test the implementation:
+This prototype demonstrates **front-end mobile design principles** and **UI consistency** using React Native and Expo’s flexible development environment.
 
-1. Clone the Repository
+---
+
+## 📂 File Descriptions
+
+| File | Description |
+|------|--------------|
+| **App.js** | Main entry point of the application. Sets up navigation between the Home Page and Styles Page using React Navigation. |
+| **screens/HomePage.js** | Displays the login interface with inputs for email and password, a styled sign-in button, and a link to create a new account. |
+| **screens/StylesPage.js** | Acts as a visual style guide, showing the color palette, icons, and typography used across the app. |
+| **package.json** | Lists the dependencies required to run the app (React Native, Expo, React Navigation, etc.). |
+| **app.json** | Defines app-level configurations for Expo, such as app name and orientation. |
+
+---
+
+## 🚀 How to Run the App
+
+Follow these steps to reproduce and test the implementation:
+
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/ClassAttendance.git
 cd ClassAttendance
-
-2. Install Dependencies
+2️⃣ Install Dependencies
+bash
+Copy code
 npm install
+3️⃣ Download Expo Go
+Install Expo Go on your iPhone from the App Store.
 
-3. Download Expo Go on iphone
-
-3. Start the Expo Server
+4️⃣ Start the Expo Server
+bash
+Copy code
 npx expo start
+5️⃣ Run the App
+Scan the QR code shown in your terminal with the Expo Go app.
 
-4. Scan the QR code or open the iphone app to see live screens
+The Home Page will appear first.
 
-This project was developed with assistance from ChatGPT (GPT-5) for help with React Native component structure, UI design, and documentation drafting.
+After clicking Sign In, you’ll navigate to the Styles Page.
+
+This project was developed with assistance from ChatGPT (GPT-5) for:
+Structuring React Native components
+Designing the UI layout and style consistency
+Drafting and refining project documentation
